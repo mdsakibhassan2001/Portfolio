@@ -274,8 +274,16 @@
 
 .portfolio-img {
     position: relative;
+    aspect-ratio: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
-
+.portfolio-img img{
+    object-fit: cover;
+}
 .portfolio-btn {
     position: absolute;
     width: 100%;
